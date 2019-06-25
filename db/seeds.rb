@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+product = Product.create([{name: 'Dress'}, {price: 59}, {image_url: ''} , {description: 'this is a boho dress'}])
+
+
+
