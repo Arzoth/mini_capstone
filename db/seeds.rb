@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-product = Product.new(name: "Dress", price: '59', image_url: " " , description: "this is a boho dress")
+100.times do
+  product = Product.new(price: rand(50), name: FFaker::Product.product, description: FFaker::HipsterIpsum.paragraph, image_url: FFaker::Image.url)
 
-product.save
+  product.save
+end
 
 

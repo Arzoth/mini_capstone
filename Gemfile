@@ -44,3 +44,15 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'http'
 gem 'rack-cors'
 gem 'jb'
+
+#tty-table
+
+gem 'tty-table'
+
+#ffaker
+
+group :development do
+
+ gem 'ffaker'
+
+end 
