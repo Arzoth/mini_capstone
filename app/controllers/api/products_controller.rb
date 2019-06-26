@@ -1,2 +1,8 @@
 class Api::ProductsController < ApplicationController
-end
+
+ def dress
+  @product = Product.fifth
+  render 'dress.json.jb'
+ end
+end 
+
